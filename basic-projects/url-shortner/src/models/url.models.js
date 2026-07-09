@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 
 const urlSchema = new mongoose.Schema({
-    orginalUrl :{
+    originalUrl :{
         type : String ,
         required : [true , " Orginal Link is required"],
         trim : true,
